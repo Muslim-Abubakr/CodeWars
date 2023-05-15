@@ -41,3 +41,11 @@ var hotpo = function(n){
   }
 
   
+  const mango = (quantity, price) => {
+    const multiple = Math.floor(quantity / 3);
+    return price * (quantity - multiple);
+  }
+
+  function reverse(string){
+    return string.split(' ').reverse().join(' ')
+  }
