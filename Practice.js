@@ -50,6 +50,9 @@ var hotpo = function(n){
     return string.split(' ').reverse().join(' ')
   }
 
+  function makeUpperCase(str) {
+    return str.toUpperCase()
+  }
   
   function bmi(weight, height) {
     if(weight / height ** 2 <= 18.5) {
