@@ -74,3 +74,7 @@ var hotpo = function(n){
 function printArray(array){
   return array.join();
 }
+
+function makeUpperCase(str) {
+  return str.toUpperCase() // Code here
+ }
