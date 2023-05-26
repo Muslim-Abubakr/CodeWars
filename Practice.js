@@ -78,3 +78,5 @@ function printArray(array){
 function makeUpperCase(str) {
   return str.toUpperCase() // Code here
  }
+
+ correct = s => s.replace(/0/g,'O').replace(/1/g,'I').replace(/5/g,'S')
