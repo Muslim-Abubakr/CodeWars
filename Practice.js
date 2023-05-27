@@ -90,3 +90,11 @@ function makeUpperCase(str) {
 const correct = string => (
 	string.replace(/[501]/g, character => corrections[character])
 );
+
+let age = prompt("Сколько Вам лет?", 18);
+	
+let welcome = (age < 18) ?
+  () => alert('Привет!') :
+  () => alert("Здравствуйте!");
+
+welcome();
