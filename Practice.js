@@ -119,3 +119,13 @@ myFunction(5, 3) // 9
 
 
 let func = (arg1, arg2, ...argN) => expression;
+
+Let medalForScore = function (score) {
+	if (score < 3) {
+	 return "Бронзовая";
+	}
+	 if (score < 7) {
+	return "Серебряная";
+	}
+	 return "Золотая";
+	};
