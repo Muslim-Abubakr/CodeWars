@@ -107,3 +107,15 @@ let func = sayHi;    // (2) копируем
 
 func(); // Привет     // (3) вызываем копию (работает)
 sayHi(); // Привет    //     эта тоже все ещё работает 
+
+Const myFunction = (a, b) => {
+  Let c
+  A = a + 1
+  C = a + b
+  Return c
+}
+myFunction(5, 3) // 9
+
+
+
+let func = (arg1, arg2, ...argN) => expression;
