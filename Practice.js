@@ -136,3 +136,12 @@ Let medalForScore = function (score) {
 function litres(time) {
   return Math.floor(time * 0.5);
 }
+
+function simpleMultiplication(number) {
+  if(number % 2 === 0) {
+    return number * 8
+  } else if(number % 2 != 0) {
+    return number * 9
+    }// your code........
+}
+
