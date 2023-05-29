@@ -145,3 +145,15 @@ function simpleMultiplication(number) {
     }// your code........
 }
 
+
+// Thinkful - Logic Drills: Traffic light
+
+function updateLight(current) {
+  
+  return current === 'yellow' ? 'red' : current === 'green' ? 'yellow' : 'green';
+
+}
+
+// 2
+
+
