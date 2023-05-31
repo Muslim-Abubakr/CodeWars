@@ -175,7 +175,6 @@ function strCount(str, letter){
   
   }
 
-  */
 
   const obj = {
     key: 1,
@@ -198,3 +197,10 @@ function strCount(str, letter){
 
     return a + b
   }
+  */
+
+  const myArray = ['first', 'second', 'third']
+
+  myArray.forEach((element) => {
+    console.log(element)
+  })
