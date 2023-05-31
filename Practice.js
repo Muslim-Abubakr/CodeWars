@@ -1,4 +1,4 @@
-function greet(name){
+/* function greet(name){
     return 'Hello, ' + name + ' how are you doing today?'
 }
 
@@ -173,4 +173,28 @@ function strCount(str, letter){
 
   return str.split(letter).length-1
   
+  }
+
+  */
+
+  const obj = {
+    key: 1,
+    name: 'Muslim',
+    age: 24
+  }
+  
+  const {key, name, age} = obj
+  console.log(key)
+
+
+  const sumPositiveNumbers = (a, b) => {
+    if(typeof a !=='number' || typeof b !== 'number') {
+      return 'One of the arguments is not a number'
+    }
+
+    if(a <= 0 || b <= 0) {
+      return 'Numbers are not positive'
+    }
+
+    return a + b
   }
