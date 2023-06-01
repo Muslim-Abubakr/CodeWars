@@ -214,3 +214,5 @@ function strCount(str, letter){
 function combat(health, damage) {
   return health < damage ? 0:health - damage
 }
+
+const combat = (health, damage) => Math.max(0, health - damage);
