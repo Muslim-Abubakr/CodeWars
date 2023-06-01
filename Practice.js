@@ -204,3 +204,13 @@ function strCount(str, letter){
   myArray.forEach((element) => {
     console.log(element)
   })
+
+  const fff = (...params) => {console.log(...params)}
+
+  fff(9, 4, 5)
+
+//  Grasshopper - Terminal game combat function
+
+function combat(health, damage) {
+  return health < damage ? 0:health - damage
+}
