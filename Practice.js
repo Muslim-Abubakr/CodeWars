@@ -216,3 +216,14 @@ function combat(health, damage) {
 }
 
 const combat = (health, damage) => Math.max(0, health - damage);
+
+
+// Will there be enough space?
+
+function enough(cap, on, wait) {
+  if(cap >= wait + on) {
+    return 0
+  } else if(cap < wait + on) {
+    return wait - (cap - on)
+  }
+}
