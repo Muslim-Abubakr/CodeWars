@@ -227,3 +227,9 @@ function enough(cap, on, wait) {
     return wait - (cap - on)
   }
 }
+
+// Area or Perimeter
+
+const areaOrPerimeter = function(l , w) {
+  return l == w ? l ** 2: 2 * (l + w)// Return your answer
+};
