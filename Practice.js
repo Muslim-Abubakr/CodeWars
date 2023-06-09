@@ -243,3 +243,13 @@ function finalGrade (exam, projects) {
   (exam > 50 && projects >= 2) ? 75:
   0
 }
+
+// If you can't sleep, just count sheep!! 
+
+var countSheep = function (num){
+  str = ''
+  for (let i = 1; i <= num; i++) {
+    str += `${i} sheep...`
+  }
+  return str
+}
