@@ -261,3 +261,10 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
      }
   return years; 
 }
+
+function pillars(numPill, dist, width) {
+  let distancesInbetween = numPill - 1;
+    let totalDistance = (numPill * width) + (distancesInbetween * dist * 100)
+    let distance = totalDistance - (2 * width)
+    return numPill === 1 ? 0 :distance;  
+}
