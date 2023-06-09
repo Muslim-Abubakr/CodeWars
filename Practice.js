@@ -253,3 +253,11 @@ var countSheep = function (num){
   }
   return str
 }
+
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  let years = dadYearsOld - (2 * sonYearsOld);
+  if( years < 0) {
+     return years * -1;
+     }
+  return years; 
+}
