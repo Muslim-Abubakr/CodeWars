@@ -308,8 +308,19 @@ function test() {
   }
 }
 
-let arr = [1, 2, 3, 4, 5]
+let arr = ['1', '2', '3', '4']
 
 let arrMap = arr.map(function(elem) {
-  return elem ** 2
+  return elem + '!'
+})
+
+
+let arr = ['1', '2', '3', '4']
+
+let arrMap = arr.map(function(elem, index) {
+  let reverse = []
+  for(i = arr.length; i >= 0; i++) {
+    reverse += arr[i]
+  }
+  return reverse
 })
