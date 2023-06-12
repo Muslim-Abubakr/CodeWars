@@ -295,3 +295,15 @@ function positiveSum(arr) {
 function removeChar(str){
   return str.slice(1, str.length - 1)
 };
+
+
+function test() {
+  let num = 1
+  return function() {
+    num--
+    console.log(num)
+    if(num < 0) {
+      console.log('Отсчет окончен')
+    }
+  }
+}
