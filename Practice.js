@@ -325,6 +325,9 @@ let arrMap = arr.map(function(elem, index) {
   return reverse
 })
 
+// Are You Playing Banjo?
+
+
 function areYouPlayingBanjo(name) {
   if (name[0] == 'r' || name[0].toLowerCase() == 'r') {
     return `${name} plays banjo`
