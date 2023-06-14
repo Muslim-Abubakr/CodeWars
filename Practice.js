@@ -342,3 +342,13 @@ function areYouPlayingBanjo(name) {
   return (name[0].toLowerCase() == 'r') ? `${name} plays banjo`
   : `${name} does not play banjo`
 }
+
+// Is this a triangle?
+
+function isTriangle(a,b,c) {
+  if (a + b > c && b + c > a && a + c > b) {
+    return true
+  } else {
+    return false
+  }
+}
