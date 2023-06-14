@@ -335,3 +335,10 @@ function areYouPlayingBanjo(name) {
     return `${name} does not play banjo`
   }
 }
+
+// Answer #2
+
+function areYouPlayingBanjo(name) {
+  return (name[0].toLowerCase() == 'r') ? `${name} plays banjo`
+  : `${name} does not play banjo`
+}
