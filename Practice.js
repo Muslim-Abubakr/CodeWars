@@ -356,3 +356,24 @@ function isTriangle(a,b,c) {
 function isTriangle(a,b,c) {
   return (a + b > c && b + c > a && a + c > b) ? true: false
 }
+
+// Create Phone Number
+
+function createPhoneNumber(numbers){
+  let num = '(xxx) xxx-xxxx'
+  
+  for (i = 0; i < numbers.length; i++) {
+    num = num.replace('x', numbers[i])
+  }
+  return num
+}
+
+//How many arguments
+
+function args_count() {
+  return arguments.length
+}
+
+function isLeapYear(year) {
+  return (year % 100 !== 0 && year % 4 === 0) || year % 400 === 0
+}
