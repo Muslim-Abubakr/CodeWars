@@ -377,3 +377,13 @@ function args_count() {
 function isLeapYear(year) {
   return (year % 100 !== 0 && year % 4 === 0) || year % 400 === 0
 }
+
+// String repeat
+
+function repeatStr (n, s) {
+  let count = ''
+  for(i = 0; i < n; i++) {
+    count += s
+  }
+  return count
+} 
