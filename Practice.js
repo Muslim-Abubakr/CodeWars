@@ -397,3 +397,14 @@ function squareSum(numbers){
   }
   return sum
 }
+
+// Reversed sequence
+
+const reverseSeq = n => {
+  let arr = []
+  
+  for (i = 1; i < n + 1; i++) {
+    arr.unshift(i)
+  }
+  return arr
+};
