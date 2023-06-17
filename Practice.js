@@ -417,4 +417,22 @@ const myObj = {
 myObj.hasOwnProperty("top");
 myObj.hasOwnProperty("middle");
 
+Const myCity = {
+  city: 'New York',
+  cityGreeting: function() {
+    Console.log('Hi')
+  }
+}
+
+myCity.cityGreeting() // выведет 'Hi'
+
+Const myCity = {
+  city: 'New York',
+  cityGreeting() {
+    Console.log('Hi')
+  }
+}
+
+myCity.cityGreeting() // выведет 'Hi'
+
 
